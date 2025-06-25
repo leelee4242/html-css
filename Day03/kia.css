@@ -1,0 +1,21 @@
+.box {
+  border: 1px solid;
+}
+
+.name {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.name2 {
+  text-align: center;
+  color: #637387;
+  font-size: 14px;
+}
+
+.photo {
+  width: 240px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 3px;
+}
