@@ -1,0 +1,48 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bigbox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.minibox {
+  width: 100px;
+  height: 100px;
+}
+
+.faded {
+  background-color: #81ecec;
+}
+
+.eggbule {
+  background-color: #00cec9;
+}
+
+.date {
+  background-color: #fab1a0;
+}
+
+.orange {
+  background-color: #e17055;
+}
+
+.tail {
+  background-color: #74b9ff;
+}
+
+.blue {
+  background-color: #0984e3;
+}
+
+.pink {
+  background-color: #ff7675;
+}
+
+.gong {
+  background-color: #d63031;
+}
