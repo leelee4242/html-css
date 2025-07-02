@@ -1,0 +1,36 @@
+
+.feed{
+    width: 50px;
+    height: 50px;
+}
+
+.photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 99px;
+    position: relative;
+}
+
+.photo > .circle{
+    position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.name{
+    color: gray;
+    margin: 5px;
+}
+
+.circle{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 15px;
+    border-radius: 9999px;
+    border: 2px solid white;
+    background-color: green;
+}
