@@ -1,0 +1,45 @@
+.box:hover {
+  /*transform: rotate(45deg);*/
+  /*transform: scale(3);*/
+  /*transform: translate(100px, 100px);*/
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.photo > img:hover {
+  transform: scale(1.1);
+}
+
+.photo > span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: blue;
+  padding: 3px 4px 3px 4px;
+  color: white;
+  border-radius: 20px;
+}
+.box:hover {
+  transform: scale(2);
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.name {
+  font-size: 18px;
+  text-align: center;
+}
