@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container > .contents > h6 {
+  font-size: 18px;
+  text-align: start;
+  line-height: 1.3;
+  color: #757575;
+}
+
+.container > .contents > h2 {
+  font-size: 32px;
+  color: #1f1f41;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  border-radius: 8px;
+}
+
+.font {
+  font-size: 20px;
+  color: black;
+  justify-content: end;
+}
+
+.minibox {
+  color: white;
+  background-image: url(sq-lim-G623Yf89O7k-unsplash.jpg);
+  background-size: cover;
+  font-size: 15px;
+  width: 400px;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
